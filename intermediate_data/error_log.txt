@@ -1,0 +1,12 @@
+Failed to get revision ID for Barbara Eibinger-Miedl
+Failed to get revision ID for Mehrali Gasimov
+Failed to get revision ID for Kyaw Myint
+Failed to get revision ID for André Ngongang Ouandji
+Failed to get ORES score for Florencio del Castillo (rev_id: 1208171356)
+Failed to get revision ID for Tomás Pimentel
+Failed to get revision ID for Richard Sumah
+Failed to get ORES score for Oralbeg Abdu Kerimovic (rev_id: 1067021356)
+Failed to get ORES score for Galymjan Koishibaev (rev_id: 1231810366)
+Failed to get revision ID for Segun ''Aeroland'' Adewale
+Failed to get ORES score for Saloum Traoré (rev_id: 747227236)
+Failed to get revision ID for Bashir Bililiqo
