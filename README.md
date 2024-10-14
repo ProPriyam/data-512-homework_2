@@ -95,46 +95,46 @@ These tables are embedded in the `data_analysis.ipynb` notebook.
 
 ## Research Implications
 
-Through this project, it became evident that bias can emerge at nearly every stage of data processing, potentially leading to misleading analyses. The data processing journey involves numerous decision points, each carrying the potential for introducing bias:
+This project taught me that, virtually at every step of data processing, bias can occur and could lead to misleading analyses. There are so many decision points along a data processing journey, and each of these can potentially introduce bias:
 
-1. Selecting data sources
-2. Handling duplicate information
-3. Addressing mismatched data
-4. Managing missing data
+1. Choice of data source
+2. Management of duplicated information
+3. Dealing with mismatched data
+4. Handling missing data
 
-These decisions require careful consideration and thorough investigation to mitigate potential biases. The project underscored the importance of conducting comprehensive research and due diligence to maintain data integrity and minimize bias.
+These decisions have to be cautiously taken and well-investigated to reduce the risk of biases. This project highlights how extensive research or due diligence in all aspects is necessary to minimize the loss of data integrity or bias.
 
 ### What biases did you expect to find in the data (before you started working with it), and why?
 
 Prior to working with the data, two main sources of bias were anticipated:
 
-1. Article Quality Rating Bias: Given that the ORES API provides quality predictions based on English Wikipedia pages, there was an expectation of potential bias against politicians from non-English speaking countries. Their articles might receive lower scores even if the corresponding pages in their native languages are highly informative.
+1. Article Quality Rating Bias: Since the API, ORES, does quality prediction based on English Wikipedia pages, a set of potential bias was against politicians from countries whose English is not their first language. Their articles may get low scores while the corresponding pages in their native languages are very informative.
 
-2. Sampling Bias: The comprehensiveness of the politicians_by_country list was questioned. There was a concern that not all politicians from different countries would have an equal probability of inclusion in the dataset.
+2. Sampling Bias: The politicians_by_country list wasn't considered to be comprehensive. Not every politician from any different country could get an equal opportunity to land in the dataset.
 
 ### What (potential) sources of bias did you discover in the course of your data processing and analysis?
 
-During the data processing and analysis phases, several potential sources of bias were identified:
+Following are some of the potential biases identified during data processing and analysis:
 
-1. Data Insufficiency: The input data lacked comprehensive information on politicians for numerous countries, limiting the scope and reliability of the analysis.
+1. Inadequacy of Data: Input data lacked comprehensive information on politicians for most countries, which further reduced the scope and reliability of the analysis.
 
-2. Data Quality Issues: Problems such as data duplication, missing data, and data mismatches were encountered, all of which could contribute to biased analysis if not properly addressed.
+2. Quality Issues: The data had duplication and misalignment issues, together with data loss; any of these issues, if not treated properly, might lead to biased analysis.
 
-3. ORES Prediction System: Upon reviewing the documentation, it was noted that the ORES system tends to evaluate article quality with a stronger emphasis on structure rather than content. This approach could introduce bias in the quality assessment of articles.
+3. ORES Prediction System: Going through the documentation, it was noted that the ORES system evaluates article quality much more in terms of structure than its content. This is biased in assessing the quality of articles.
 
-These findings highlight the complex nature of working with large datasets and the importance of critical examination at every stage of the data science process. They also emphasize the need for transparency in methodology and acknowledgment of limitations when presenting results based on such analyses.
+These results highlight how complex an exercise it is to work with large datasets and how crucial critical examination is at every step in a data science pipeline. They also further reiterate the fact that methodological transparency and declaration of limits are required when presenting the results of such analyses.
 
 ### What might your results suggest about the internet and global society in general?
 
-The results from this analysis of Wikipedia articles about politicians across different countries and regions provide some interesting insights into the internet and global society:
+These findings of this analysis on Wikipedia articles of politicians from different countries and regions have some interesting implications for the internet and society as a whole:
 
-1. Digital divide persists: Significant disparities in online representation between regions reflect ongoing inequalities in internet access and digital engagement.
+1. Digital divide persists: Large differences in online presence between regions suggest that access to and use of the internet continue to be unequal.
 
-2. Language barriers matter: English dominance on Wikipedia likely skews coverage towards English-speaking countries or those with historical ties to English-speaking nations.
+2. Language barriers matter: The predominance of English on Wikipedia is likely to contribute to skewed coverage towards English-speaking nations or countries that have historical links to English-speaking nations.
 
-3. Size doesn't always determine coverage: Smaller states often have disproportionately high coverage, possibly due to the relative prominence of their politicians.
+3. Size factor does not always work in determining coverage: In general, smaller states normally receive disproportionately high coverage, perhaps due to the relative prominence of their politicians.
 
-4. Information inequality exists: Variations in coverage quality suggest uneven access to well-researched political information globally.
+4. Information inequality exists: This is shown in the difference in the quality of the coverage, revealing unequal access in respect to well-researched political information around the world.
 
 ## Dependencies
 
